@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width:1400px;
+    min-height: 1800px;
+    border: solid bold 1px;
+    overflow: hidden;
+}
+
+#header{
+    width:inherit;
+    height: 100px;
+    background-color: aqua;
+}
+
+#redeSocial{
+    width: 150px;
+    height: inherit;
+    background-color: bisque;
+    display: flex;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imgInsta{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+}
+
+        
+
+#imgFace{
+    width: 50px;
+    height: 50px;
+    background-color:chocolate;
+}
+
+#imgTwitter{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.icon{
+    width: inherit;
+    height: inherit;
+}
+#main{
+    
+}
+
+#footer{
+    
+}

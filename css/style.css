@@ -14,43 +14,159 @@
     width:inherit;
     height: 100px;
     background-color: aqua;
+    display: flex;
+    
 }
 
-#redeSocial{
-    width: 150px;
+#divlogo{
+    width: 200px;
     height: inherit;
-    background-color: bisque;
+    background-color: black;
+}
+#logo{
+    padding-left: 64px;
+}
+
+#menu{
+    width: 1000px;
+    height: inherit;
+    background-color: black;
+    display: flex;
+}
+
+.topico{
+    width: 200px;
+    height: 30px;
+    margin-top:40px;
+/*    background-color:aqua;*/
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+#redeSocial{
+    width: 200px;
+    height: inherit;
+    background-color: black;
     display: flex;
     float: right;
     padding: 10px;
     box-sizing: border-box;
+    padding-top: 30px;
 }
 
 #imgInsta{
-    width: 50px;
-    height: 50px;
-    background-color: cadetblue;
+    width: 30px;
+    height: 30px;
+/*    background-color: cadetblue;*/
+    padding-right: 5px;
+    
 }
 
-        
-
 #imgFace{
-    width: 50px;
-    height: 50px;
-    background-color:chocolate;
+    width:30px;
+    height: 30px;
+/*    background-color:chocolate;*/
+    padding-right: 5px;
 }
 
 #imgTwitter{
-    width: 50px;
-    height: 50px;
-    background-color: black;
+    width:30px;
+    height: 30px;
+/*    background-color: black;*/
+    padding-right: 5px;
 }
 .icon{
     width: inherit;
     height: inherit;
 }
 #main{
+    width:1350px;
+    height: 1400px;
+    background-color: chartreuse;
+}
+
+#divcapa{
+    width: inherit;
+    height: 500px;
+}
+
+#capa{
+    width: inherit;
+    height: inherit;
+}
+#buscas{
+    width: inherit;
+    height: 50px;
+    background-color: beige;
+}
+
+#barraPesquisar{
+    width: 350px;
+    height: inherit;
+    background-color: aqua;
+    padding-top: 5px;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 20px;
+}
+.catalogo{
+    width: 1200px;
+    height: 650px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+   
     
+    
+}
+
+.produto{
+    width: 400px;
+    height: 600px;
+    background-color: blue;
+    
+    
+}
+
+.imagem{
+    width: 400px;
+    height: 365px;
+    background-color: antiquewhite;
+}
+.fifa{
+    padding-left: 55;
+}
+.nomeProduto{
+    width: inherit;
+    height: 50px;
+    padding:10px;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    
+}
+.descricaoProduto{
+    width: inherit;
+    height: 100px;
+    
+}
+.saibaMaisEpreco{
+    width: inherit;
+    height: 70px;
+    background-color: bisque;
+}
+.botao{
+    width: 90px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 34px;
+}
+.preco{
+    width: 70px;
+    height: 35px;
+    padding-left: 210;
+    font-size: 1.2em;
 }
 
 #footer{

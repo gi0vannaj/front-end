@@ -5,7 +5,8 @@
 
 .body{
     width:1400px;
-    min-height: 1800px;
+    height: auto;
+    min-height: 3000px;
     border: solid bold 1px;
     overflow: hidden;
 }
@@ -15,6 +16,7 @@
     height: 100px;
     background-color: aqua;
     display: flex;
+    position: fixed;
     
 }
 
@@ -28,10 +30,11 @@
 }
 
 #menu{
-    width: 1000px;
+    width: 100vw;
     height: inherit;
     background-color: black;
     display: flex;
+    justify-content: center;
 }
 
 .topico{
@@ -82,26 +85,40 @@
     height: inherit;
 }
 #main{
-    width:1350px;
-    height: 2100px;
-    background-color: chartreuse;
+    width:inherit;
+    min-height: 2100px;
+    height:auto;
+    background-color:#001d3d;
 }
 
 #divcapa{
-    width: inherit;
-    height: 500px;
-}
-
-#capa{
-    width: inherit;
-    height: inherit;
+/*    width: inherit;*/
+    height: 800px;
+    background-size: cover;
+    background-image: url(../img/fortnite.jpg);
+/*
+    background-position: center;
+    object-position:
+*/
 }
 #buscas{
     width: inherit;
-    height: 50px;
-    background-color: beige;
+    height: auto;
+    min-height:50px;
+/*    background-color: beige;*/
+    
 }
-
+#iconeMenu{
+    width:  50px;
+    height: 50px;
+    float: left;
+    background-image: url(../img/barra-de-menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 5px
+}
 #barraPesquisar{
     width: 350px;
     height: inherit;
@@ -111,12 +128,19 @@
     float: right;
     margin-right: 20px;
 }
+
+#inputPesquisa{
+    border: 1px solid black;
+    border-radius:10px;
+}
 .catalogo{
     width: 1300px;
-    height: 650px;
-    background-color: azure;
+    height: auto;
+    min-height: 650px;
+/*    background-color: azure;*/
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
    
     
     
@@ -125,11 +149,13 @@
 .produto{
     width: 400px;
     height: 600px;
-    background-color: blue;
+    background-color: #adb5bd;
     float: left;
     margin-top: 10px;
     box-sizing: border-box;
     margin-right: 10px;
+    border-radius:5%;
+    border: solid 1px black;
     
     
 }
@@ -137,28 +163,37 @@
 .imagem{
     width: 400px;
     height: 365px;
-    background-color: antiquewhite;
+/*    background-color: antiquewhite;*/
 }
-.fifa{
+.formatacaoImg{
+     width: 80%;
+    height: 365px;
     padding-left: 55;
+    box-sizing: border-box; 
+    
 }
+
+
 .nomeProduto{
     width: inherit;
     height: 50px;
     padding:10px;
     box-sizing: border-box;
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-weight: bold;
     
 }
 .descricaoProduto{
     width: inherit;
     height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
     
 }
 .saibaMaisEpreco{
     width: inherit;
     height: 70px;
-    background-color: bisque;
+/*    background-color: bisque;*/
 }
 .botao{
     width: 90px;
@@ -169,25 +204,88 @@
 .preco{
     width: 70px;
     height: 35px;
-    padding-left: 210;
+    padding-left: 200;
     font-size: 1.2em;
 }
+
+#descicaoEmpresa{
+    width: inherit;
+    height: 300px;
+    background-color:RoyalBlue;
+}
 #aEmpresa{
+    display: flex;
+    width: 60%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 25px;
     
 }
 
-#tiutlo{
-    
+#SobreEmpresa{
+    width: 50%;
+    height: inherit;
+    padding: 30px
 }
-#paragrafosSobreEmpresa{
+
+p{
+    font-size: 1.2em;   
+}
+
+#imgEmpresa{
+    
+    justify-content: center;
+    padding-top: 45px;
+
+}
+h1{
+    margin-bottom: 15px
+}
+
+#promocoes{
+     width: 1300px;
+    height: auto;
+    min-height: 650px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#destaquesDaloja{
+    width: inherit;
+    height: 500px;
+}
+#destaques{
+    width: 1300px;
+    height: auto;
+    min-height: 300px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 15px; 
+    display: flex;
+}
+
+.circleBase {
+    border-radius: 50%;
+/*    behavior: url(PIE.htc);  remove if you don't care about IE8 */
     
 }
 
-.resumoEmpresa{
-    
+.type1 {
+    width: 250px;
+    height: 250px;
+    background: yellow;
+    border: 3px solid red;
+    margin-bottom:10px;
+    margin-right: 15px;
 }
-
 
 #footer{
-    
+    width: inherit;
+    height: 80px;
 }

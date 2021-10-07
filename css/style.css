@@ -12,7 +12,7 @@
 }
 
 #header{
-    width:inherit;
+    width:100vw;
     height: 100px;
     background-color: aqua;
     display: flex;
@@ -271,30 +271,40 @@ button{
     
 }
 .saibaMaisEpreco{
-    width: inherit;
+    width: 250px;
     height: 70px;
+    float: left;
 /*    background-color: bisque;*/
 }
+
 .botao{
     width: 90px;
     height: 35px;
     margin-left: 10px;
     margin-top: 34px;
 }
+.desconto{
+    width: 110px;
+    height: 65px;
+    float: left;
+    margin-top: 20px;
+}
 .preco{
-    width: 70px;
-    height: 35px;
-    padding-left: 200;
+    width: inherit;
+    height: inherit;
+/*    padding-left: 200px;*/
     font-size: 1.2em;
 }
 
 #descicaoEmpresa{
     width: inherit;
-    height: 300px;
-    background-color:RoyalBlue;
+    height: auto;
+    min-height: 400px;
+    background-color:DarkBlue;
+    color: white;
+    font-family: arial;
 }
 #aEmpresa{
-    display: flex;
     width: 60%;
     height: 300px;
     margin-left: auto;
@@ -328,10 +338,10 @@ h1{
      width: 1300px;
     height: auto;
     min-height: 650px;
-    background-color: azure;
+/*    background-color: azure;*/
     margin-left: auto;
     margin-right: auto;
-    
+    color: white;
     margin-top: 15px;
     padding: 10px;
 }
@@ -339,26 +349,35 @@ h1{
 #destaquesDaloja{
     width: inherit;
     height: 500px;
+    color: aliceblue;
+    background-color:DarkBlue; 
+    margin-top: 30px;
+}
+#titulo{
+    height: 60px;
+    margin-bottom: 15px;
 }
 #destaques{
     width: 1300px;
     height: auto;
     min-height: 300px;
-    background-color: azure;
+/*    ;*/
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 15px; 
     
     
 }
 #ciculos{
-    width: 750px;
+    width: 1200px;
     height: inherit
     overflow: hidden;
     display: flex; 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+/*    background-color: aqua;*/
 }
 .circleBase {
     border-radius: 50%;
@@ -367,19 +386,79 @@ h1{
 }
 
 .type1 {
-    width: 250px;
-    height: 240px;
-    background: yellow;
-    border: 3px solid red;
+    width: 300px;
+    height: 290px;
     margin-bottom:10px;
-    margin-right: 15px;
-    background-image: url(../img/callOfDuty.jpg);
+    margin-right: 90px;
     background-size: cover;
-    
+    border: 3px solid white;
     
 }
 
+.type2{
+    background-image: url(../img/fifa20.jpg)
+}
+.type3{
+    background-image: url(../img/fifa21.jpg)
+}
+.type4{
+    background-image: url(../img/fifa.PNG)
+}
+
 #footer{
+    background-color:#001d3d;
     width: inherit;
-    height: 80px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    
+}
+#unidades{
+    width: 400px;
+    height: 300px;
+/*    background-color: aliceblue;*/
+    padding: 20px;
+}
+#uniosasco{
+    margin-top: 10px;
+    width: inherit;
+    height: 150px;
+    
+}
+.imgEtexto{
+    display: flex;
+}
+
+.imgLocal{
+    width: 70px;
+    height: 70px;
+    background-color:azure;
+    background-image: url(../img/localizacao.png);
+    background-repeat: no-repeat;
+    
+}
+
+.endereco{
+    width: 200px;
+    height: 100px;
+/*    background-color: bisque;*/
+    font-size: 1.3em;
+    padding-left: 5px;
+    
+}
+
+#unicarapicuiba{
+    margin-top: 10px;
+    width: inherit;
+    height: 150px;
+    
+}
+
+#contato{
+     width: 400px;
+    height: 300px;
+    background-color: salmon;
+    padding: 20px;
+    margin-left: 20px;
 }

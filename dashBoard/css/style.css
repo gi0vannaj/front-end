@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header{
+    width:inherit;
+    height: 250px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+#nomeEmpresa{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 2.1em;
+    padding: 15px;
+/*    background-colosr: peru;*/
+    padding-top: 70px;
+    
+    
+}
+#imgEmpresa{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    padding-left: 100px;
+/*
+    background-image: url(../img/imgEmpresa.jpg);
+}
+*/
+}
+
+#principal{
+    width: inherit;
+    height: 550px;
+    background-color:skyblue;
+}
+
+#menu{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    background-color: darkcyan;
+}
+
+#icones{
+    margin-left: 50px;
+    width: 50vw;
+    height: 100px;
+    
+    gap: 70px;
+    display: flex;
+    margin-top: 15px;
+    
+ 
+}
+
+#logout{
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+#rodape{
+    width: inherit;
+    height:  100px;
+    background-color: DarkBlue;
+}
